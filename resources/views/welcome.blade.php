@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container my-4">
+<div class="container py-5">
     <h1 class="text-center py-2">Movies List</h1>
     <div class="row row-cols-3 g-4">
         @forelse($movies as $movie)

@@ -8,10 +8,10 @@
                   <div class="collapse navbar-collapse" id="mainMenu">
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                               <li class="nav-item">
-                                    <a class="nav-link {{Route::currentRouteName() === 'home' ? 'active' : ''}}" href="{{route('home')}}" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                                    <a class="nav-link {{Route::currentRouteName() === 'home' ? 'activeNav' : ''}}" href="{{route('home')}}" aria-current="page">Home</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link {{Route::currentRouteName() === 'about' ? 'active' : ''}}" href="{{route('about')}}">About</a>
+                                    <a class="nav-link {{Route::currentRouteName() === 'about' ? 'activeNav' : ''}}" href="{{route('about')}}">About</a>
                               </li>
 
                         </ul>
